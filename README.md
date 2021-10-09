@@ -1,6 +1,21 @@
 # Identicon
 
-**TODO: Add description**
+Identicon generator app based on Github Avatar Generator created with Elixir.
+
+## How to use
+
+Run the command to start the Interactive mode of elixir: 
+
+> iex -S mix
+
+After that call the main method of the app passing a random string:
+> Identicon.main("example")
+
+By the end the program will generate a image file inside the folder with the random string.
+
+## Example:
+
+![Print](https://github.com/LeonardoPizzoquero/identicon-elixir-app/blob/main/example.png)
 
 ## Installation
 
